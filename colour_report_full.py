@@ -2,7 +2,7 @@ import pygame
 import os
 from collections import Counter
 
-BASE_DIR = "/mnt/c/Users/andre/Downloads/OSRS_map_rip/2025-05-22_a/-1"
+BASE_DIR = "/mnt/c/Users/andre/Downloads/OSRS_map_rip/2025-05-22"
 
 def is_uniform_dark(image, max_lum=16):
     """

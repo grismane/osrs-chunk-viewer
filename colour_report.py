@@ -38,6 +38,8 @@ def analyze_image_colors(image_path):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python color_report.py <image_path>")
+        print("Usage: python3 colour_report.py <image_path>")
     else:
         analyze_image_colors(sys.argv[1])
+
+# python3 colour_report.py /mnt/c/Users/andre/Downloads/OSRS_map_rip/2025-05-22/0/2_31_77.png

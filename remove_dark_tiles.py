@@ -2,8 +2,8 @@ import pygame
 import os
 
 # Setup
-BASE_DIR = "/mnt/c/Users/andre/Downloads/OSRS_map_rip/2025-05-22_a/-1"
-TARGET_COLOR = (16, 16, 16)
+BASE_DIR = "/mnt/c/Users/andre/Downloads/OSRS_map_rip/2025-05-22"
+TARGET_COLOR = (0, 0, 0)
 TILE_SIZE = 256  # assuming all images are this size
 
 def is_uniform_color(image, target_color):
